@@ -1,6 +1,8 @@
 Power Analysis 
 ===============
+
 This project is trying to develop an open source power estimation tool.The basic commit is done which implies how to calculate average power using LTSpice. The project extends further by using tcl commands for estimating power of any circuit provided.
+
 Set Up for Simulation
 ===================================
 The average power of basic cmos inverter is estimated with the help of LTSpice tool.
