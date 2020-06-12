@@ -1,7 +1,7 @@
 Power Analysis 
 ===============
 
-The main aim of the project is to develop an open source power estimation tool.The basic commit is done which implies how to calculate average power using LTSpice. The project extends further by using tcl commands for estimating power of any circuit provided.
+The main aim of the project is to develop an open source power estimation tool.The basic commit is done which implies how to calculate average power using LTSpice. The project extends further by using tcl commands for estimating power of any circuit provided. The very basic circuit is considered so that to ease the test and to know the power analysis flow.Once the module is defined, any circuits can be tested. This commit proceed only the average power calculation using LTspice.
 
 LTspice Installation 
 ====================
