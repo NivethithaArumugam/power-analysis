@@ -1,4 +1,3 @@
-* C:\Users\Arumugam\Documents\LTspiceXVII\Draft1.asc
 M1 N001 IN OUT OUT PMOS
 M2 OUT IN 0 0 NMOS
 V1 N001 0 1.8
