@@ -53,13 +53,13 @@ The average power of basic cmos inverter is estimated with the help of LTSpice t
 
 12. After checking the estimated operation create new pane.
 
-13. Right click on the pane and add traces and in expression Give the formula as Vout*id1+id2.
 
-14. The power waveform at each transition can be seen.
-![image](https://user-images.githubusercontent.com/46344842/84530211-6091e200-ad00-11ea-99a2-b834bf19645e.png)
+13. We can find power by Holding down the Alt key and click a device (thermometer appears) to plot power.
+</br>![image](https://user-images.githubusercontent.com/46344842/84670436-c3bf8680-af43-11ea-8d81-4a4c5403eade.png)
 
-15. Press ctrl+left click on the name of the power waveform which integrates the power value and gives us the average switching power of the circuit.</br>
-![image](https://user-images.githubusercontent.com/46344842/84574288-17569680-adc3-11ea-98e4-b8a4d771b481.png)
+
+14. Press ctrl+left click on the name of the power waveform which integrates the power value and gives us the average switching power of the circuit.</br>
+![image](https://user-images.githubusercontent.com/46344842/84673861-d936af80-af47-11ea-9dd6-a48aa96b7547.png)
 
 
 Contact Information
