@@ -29,11 +29,10 @@ The average power of basic cmos inverter is estimated with the help of LTSpice t
 2. Open LTSpice tool and click on file->new schematic.</br>
 ![image](https://user-images.githubusercontent.com/46344842/84529596-57544580-acff-11ea-80fe-0f2183812977.png)
 
-3. A new schematic page is opened.
+3. A new schematic page is opened. Also go to documents-->ltspice-->make changes in standard mos file by adding our new lib file into it.</br> **I have included the modified mos file so that u can replace it**
 
-4. Click on components and select the required components and draw the schematic.
-![image](https://user-images.githubusercontent.com/46344842/84732698-fdcb6f80-afb9-11ea-80da-7abbc6fda4bb.png)  </br>
-To include the library click on .op and give the command as .inc followed by the name of the library that is added to the ltspice-->documents-->sub-->newlib 
+4. Click on components and select the required components and rename the component with the name provided in our library and include the library by clicking on .op and give the command as .inc followed by the name of the library that is added to the ltspice-->documents-->sub-->newlib </br>
+![image](https://user-images.githubusercontent.com/46344842/84733817-da55f400-afbc-11ea-9574-08cc4c119f4d.png)
 
 5. Save the schematic.</br>
 ![image](https://user-images.githubusercontent.com/46344842/84733502-07ee6d80-afbc-11ea-96c0-436b23646162.png)
