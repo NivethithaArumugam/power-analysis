@@ -14,24 +14,22 @@ LTspice Installation
 ====================
 
 For windows--> Download the setup file from the download link given below for redirecting to the download page.
-https://ltspice-iv.en.lo4d.com/windows
-![image](https://user-images.githubusercontent.com/46344842/84529388-004e7080-acff-11ea-9d3d-28fbcaef2fd0.png)
 
-Click on Free Download or head on to https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html for downloading ltspice.</br>
-![image](https://user-images.githubusercontent.com/46344842/84772443-91239580-aff8-11ea-8dd5-36d83ab09ed8.png)
+     Click on Free Download or head on to https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html  for downloading ltspice.</br>
+    ![image](https://user-images.githubusercontent.com/46344842/84772443-91239580-aff8-11ea-8dd5-36d83ab09ed8.png)
 
 For MAC--> You can proceed with the steps stated in the website  http://www.columbia.edu/~ak3369/Resources/LTspice_Installation.pdf
 
-For LINUX-->LTSpice can be installed on your favourite Linux distribution, you don't even need to have windows installed, just follow these steps:
+For LINUX-->LTSpice can be installed on your favourite Linux distribution, you don't even need to have windows installed, just follow these steps:</br>
 First install wine. Wine is not an emulator but linux software that creates a working windows environment with dll files and allows you to install and run many windows programs. Wine is probably already installed or available in your distributions software repository, if not, download a copy from WineHQ.</br>
-**Open your terminal and type the following to install LTspice in WINE**
-$  sudo apt-get install wine
-$  cd /tmp/
-$  wget http://ltspice.analog.com/software/LTspiceXVII.exe
-$  wine LTspiceXVII.exe
-$  rm LTSpiceXVII.exe
+**Open your terminal and type the following to install LTspice in WINE**</br>
+$  sudo apt-get install wine </br>
+$  cd /tmp/ </br>
+$  wget http://ltspice.analog.com/software/LTspiceXVII.exe </br>
+$  wine LTspiceXVII.exe </br>
+$  rm LTSpiceXVII.exe </br>
 
-Download LTSpice
+Download LTSpice</br>
 Proceed with basic installation steps and install the software.
 
 Set Up for Simulation
@@ -60,9 +58,9 @@ The average power of basic cmos inverter is estimated with the help of LTSpice t
 
 9. Waveform window will be opened.
 
-10. Right click on the pane and add traces.Select the input trace V(in)11. Right click and click on add plot pane.
+10. Right click on the pane and add traces.Select the input trace V(a). Right click and click on add plot pane.
 
-11. Right click on the pane and add traces. Select the input trace V(out).
+11. Right click on the pane and add traces. Select the input trace V(y).
 
 12. After checking the estimated operation create new pane.
 
