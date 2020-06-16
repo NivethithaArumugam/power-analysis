@@ -17,8 +17,21 @@ For windows--> Download the setup file from the download link given below for re
 https://ltspice-iv.en.lo4d.com/windows
 ![image](https://user-images.githubusercontent.com/46344842/84529388-004e7080-acff-11ea-9d3d-28fbcaef2fd0.png)
 
-Click on Free Download.
+Click on Free Download or head on to https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html for downloading ltspice.</br>
+![image](https://user-images.githubusercontent.com/46344842/84772443-91239580-aff8-11ea-8dd5-36d83ab09ed8.png)
 
+For MAC--> You can proceed with the steps stated in the website  http://www.columbia.edu/~ak3369/Resources/LTspice_Installation.pdf
+
+For LINUX-->LTSpice can be installed on your favourite Linux distribution, you don't even need to have windows installed, just follow these steps:
+First install wine. Wine is not an emulator but linux software that creates a working windows environment with dll files and allows you to install and run many windows programs. Wine is probably already installed or available in your distributions software repository, if not, download a copy from WineHQ.</br>
+**Open your terminal and type the following to install LTspice in WINE**
+$  sudo apt-get install wine
+$  cd /tmp/
+$  wget http://ltspice.analog.com/software/LTspiceXVII.exe
+$  wine LTspiceXVII.exe
+$  rm LTSpiceXVII.exe
+
+Download LTSpice
 Proceed with basic installation steps and install the software.
 
 Set Up for Simulation
