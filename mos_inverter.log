@@ -1,17 +1,4 @@
 Circuit: * C:\Users\Arumugam\Desktop\mos_inverter.asc
-
-Warning: Multiple definitions of model "p_mos" Type: BSIM3
-Warning: Multiple definitions of model "n_mos" Type: BSIM3
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Direct Newton iteration for .op point succeeded.
-
 Date: Tue Jun 16 10:41:10 2020
 Total elapsed time: 0.171 seconds.
 
