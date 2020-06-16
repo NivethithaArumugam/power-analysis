@@ -32,10 +32,11 @@ The average power of basic cmos inverter is estimated with the help of LTSpice t
 3. A new schematic page is opened.
 
 4. Click on components and select the required components and draw the schematic.
-![image](https://user-images.githubusercontent.com/46344842/84529687-8074d600-acff-11ea-9311-1134447dfe28.png)
+![image](https://user-images.githubusercontent.com/46344842/84732698-fdcb6f80-afb9-11ea-80da-7abbc6fda4bb.png)  </br>
+To include the library click on .op and give the command as .inc followed by the name of the library that is added to the ltspice-->documents-->sub-->newlib 
 
 5. Save the schematic.</br>
-![image](https://user-images.githubusercontent.com/46344842/84574338-6c92a800-adc3-11ea-88cf-7218f2d83270.png)
+![image](https://user-images.githubusercontent.com/46344842/84733502-07ee6d80-afbc-11ea-96c0-436b23646162.png)
 
 6. The file is saved in .asc format.
 
@@ -60,6 +61,8 @@ The average power of basic cmos inverter is estimated with the help of LTSpice t
 
 14. Press ctrl+left click on the name of the power waveform which integrates the power value and gives us the average switching power of the circuit.</br>
 ![image](https://user-images.githubusercontent.com/46344842/84673861-d936af80-af47-11ea-9dd6-a48aa96b7547.png)
+
+15.Similarly we can estimate power along any net by giving the expression in the add trace window.
 
 
 Contact Information
