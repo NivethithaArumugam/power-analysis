@@ -42,7 +42,7 @@ The average power of basic cmos inverter is estimated with the help of LTSpice t
 
 3. A new schematic page is opened. Also go to documents-->ltspice-->make changes in standard mos file by adding our new lib file into it.</br> **I have included the modified mos file so that u can replace it**
 
-4. Click on components and select the required components and rename the component with the name provided in our library and include the library by clicking on .op and give the command as .inc followed by the name of the library that is added to the ltspice-->documents-->sub-->newlib </br>
+4.  Add the library into  Documents-->sub-->include the osulib file. Open the LTSpice and Click on components and select the required components and rename the component with the name provided in our library and include the library by clicking on .op and give the command as .inc followed by the name of the library that is added to the ltspice-->documents-->sub-->newlib </br>
 ![image](https://user-images.githubusercontent.com/46344842/84733817-da55f400-afbc-11ea-9574-08cc4c119f4d.png)
 
 5. Save the schematic.</br>
