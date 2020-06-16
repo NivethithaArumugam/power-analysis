@@ -1,0 +1,13 @@
+* C:\Users\Arumugam\Desktop\mos_inverter.asc
+M1 y a 0 0 n_mos
+M2 N001 a y N001 p_mos
+V1 N001 0 5
+V2 a 0 PULSE(0 1 0 0.01 0.01 1 2 20)
+C1 y 0 150f
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Arumugam\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 20
+.inc osulib.lib
+.backanno
+.end
