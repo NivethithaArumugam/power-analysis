@@ -1,0 +1,15 @@
+.title KiCad schematic
+V1 vin 0 pulse(0 1.8 0 0 0 100m 200m)
+V2 VDD 0 1.8
+M1 vout vin VDD VDD MPMOS
+M2 vout vin 0 0 MNMOS
+C1 vout 0 0.5f
+.tran 1m 400m
+.model mnmos nmos level=8 version=3.3.0
+.model mpmos pmos level=8 version=3.3.0
+.control
+run
+plot v(vin)
+plot v(vout)
+.endc
+.end
