@@ -50,6 +50,10 @@ The average power of basic cmos inverter is estimated with the help of ngspice t
 6.Also two plot windows will be opened which displays the operation of the circuit.</br>
 ![image](https://user-images.githubusercontent.com/46344842/85014678-55b5d200-b184-11ea-84ea-ea4c5111a81d.png)
 
+7. To obtain the power results open terminal and type "tclsh in_final.tcl"
+
+8. The tcl file has the formula for calculation of dynamic power of inverter.(manually done)
+**Further improvisations for automatic power calculation will be focussed**
 
 Contact Information
 ===================================
