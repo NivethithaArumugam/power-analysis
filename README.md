@@ -40,7 +40,7 @@ The average power of basic cmos inverter is estimated with the help of ngspice t
 2. Open KiCad tool and click on file->new project-->new project and proceed with schematic</br>
 ![image](https://user-images.githubusercontent.com/46344842/85014165-644fb980-b183-11ea-86db-39e5cffc7cf2.png)
 
-3. For opening the existing one click on the File--> open project and select on the .sch file.</br>
+3. For opening the existing one click on the File--> open project and select on the .pro file.</br>
 
 4. To view the output  open terminal and type  **ngspice in_final.cir**</br>
 
