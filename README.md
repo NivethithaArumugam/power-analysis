@@ -2,7 +2,7 @@ Power Analysis
 ===============
 
 The main aim of the project is to develop an open source power estimation tool.The basic commit is done which implies how to calculate average power using LTSpice. The very basic circuit is considered so that to ease the test and to know the power analysis flow.Once the module is defined, any circuits can be tested.
-*The project extends further by using tcl commands for estimating power of any circuit provided.*
+*The project extends further by using tcl commands for estimating power of any circuit provided automatically.*
 
 Glimpse on power
 ================
@@ -35,19 +35,19 @@ Open terminal and type KiCad.
 Set Up for Simulation
 ===================================
 The average power of basic cmos inverter is estimated with the help of ngspice tool.
-1. After installation open the tool.
+1. After installation open the tool by typing KiCad in terminal.
 
-2. Open KiCad tool and click on file->new project-->new project.</br>
+2. Open KiCad tool and click on file->new project-->new project and proceed with schematic</br>
 ![image](https://user-images.githubusercontent.com/46344842/85014165-644fb980-b183-11ea-86db-39e5cffc7cf2.png)
 
-3. For opening the existing one click on the File--> open project and select on the .sch.</br>
+3. For opening the existing one click on the File--> open project and select on the .sch file.</br>
 
-4. To view the output open terminal and type  **ngspice in_final.cir**</br>
+4. To view the output  open terminal and type  **ngspice in_final.cir**</br>
 
 5. You can view the following in your terminal.</br>
 ![image](https://user-images.githubusercontent.com/46344842/85014571-22734300-b184-11ea-9754-0b36368f3c1c.png)
 
-6.Also two plot windows will be opened which displays the operation of the circuit.</br>
+6.Also two plot windows will be opened which displays the operation of the circuit i.e one with input and other with output.</br>
 ![image](https://user-images.githubusercontent.com/46344842/85014678-55b5d200-b184-11ea-84ea-ea4c5111a81d.png)
 
 7. To obtain the power results open terminal and type "tclsh in_final.tcl"
